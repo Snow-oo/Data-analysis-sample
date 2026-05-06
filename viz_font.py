@@ -16,5 +16,7 @@ def setup_matplotlib_simsun() -> None:
         "STSong",
         "Songti SC",
         "DejaVu Serif",
+        "Noto Sans CJK SC",   # Google Noto 字体
+        "WenQuanYi Micro Hei", # 文泉驿微米黑
     ]
     matplotlib.rcParams["axes.unicode_minus"] = False
